@@ -1,5 +1,6 @@
 package net.yassine.tp3;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -19,9 +20,9 @@ public class Identification extends HttpServlet {
     }*/
 
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
-
-
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException ,IOException{
+        //response.setContentType("text/html");
+        //String identification_url = "file:///Y:/TpJee/TP3/src/main/webapp/identification.html";
+        RequestDispatcher rd = request.getRequestDispatcher("identification.html");
     }
 }
