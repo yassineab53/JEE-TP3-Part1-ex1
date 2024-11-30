@@ -7,7 +7,7 @@
 <body>
 <h1><%= "Hello World!" %></h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
-<a href="identification">Identification</a>
+<a href="hello-servlet">Hello Servlet</a> <br>
+<a href="identification.html">Identification</a>
 </body>
 </html>

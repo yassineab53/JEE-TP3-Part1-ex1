@@ -10,7 +10,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/identification")
+@WebServlet("/Identification")
 public class Identification extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
